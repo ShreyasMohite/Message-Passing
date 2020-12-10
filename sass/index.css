@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(82, 151, 194, 0.883);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.messagecenter {
+  width: 35rem;
+  height: 20rem;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.messagecenter h2 {
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: 100;
+}
+
+.messagecenter input[type="text"] {
+  width: 32rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: 200;
+  font-size: 1rem;
+  position: relative;
+  left: 1.5rem;
+  text-align: center;
+  border: 2px solid blue;
+}
+
+.messagecenter button {
+  padding: 1rem;
+  margin: 1.5rem 0rem;
+  cursor: pointer;
+  border: 1px solid blue;
+  border-radius: 8px;
+  width: 10rem;
+  font-size: 1.4rem;
+  background-color: #4686fd;
+  font-weight: 400;
+  color: white;
+}
+
+.messagecenter h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 200;
+}
+
+@media (max-width: 700px) {
+  .messagecenter {
+    width: 24rem;
+    height: 23rem;
+  }
+  .messagecenter input[type="text"] {
+    width: 20rem;
+    margin-left: 0.5rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
